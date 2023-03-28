@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animated Website</title>
+	<style>
+		body {
+			background-color: red;
+			animation-name: colorchange;
+			animation-duration: 20s;
+			animation-iteration-count: infinite;
+		}
+
+		@keyframes colorchange {
+			0% {
+				background-color: orange
+			}
+			50% {
+				background-color: yellow
+			100% {
+				background-color: red;
+			}
+		}
+	</style>
+</head>
+<h1>HI PLS PUT YUR INFO! <3</h1>
+<body>
+	<form action="submit-form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      
+        <button type="submit">Sign Up</button>
+      </form>
+      
+</body>
+</html>
